@@ -1,11 +1,11 @@
 body{
-	height:2000px;
+	height:4000px;
 }
 #navigation{
 	position:fixed;
 	width:100%;
-	min-height: 60px; /*- shrunk height */
-	max-height: 130px; /*- allows strechyness on scroll passed top */
+	min-height: 40px; /*- shrunk height */
+	max-height: 140px; /*- allows strechyness on scroll passed top */
 	height: 100px; /*- start height */
 	background:#343434;	
 }
@@ -18,10 +18,11 @@ body{
 	margin-left:20px;
 	font-family:helveticaNeueLight;
 	font-size:20px;
-	height: 100px;
-	line-height:100px;
+	height: 100px; /*- set same as "start height" */
+	line-height:100px; /*- set same as "start height" */
 }
 #nextElementFix{
+	width:100%;
 	padding-top:100px; /*- set same as "start height" */
 }
 /*----------Style------------*/
@@ -37,6 +38,10 @@ a{
 #memo{
 	font-family: helveticaNeueLight;
 	color: black;
+	background-color:#EFEFEF;
+	border-radius: 50px;
+	margin: 75px;
+	padding: 20px;
 	float:right;
 }
 #memo a{
