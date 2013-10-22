@@ -1,0 +1,46 @@
+body{
+	height:2000px;
+}
+#navigation{
+	position:fixed;
+	width:100%;
+	min-height: 60px; /*- shrunk height */
+	max-height: 130px; /*- allows strechyness on scroll passed top */
+	height: 100px; /*- start height */
+	background:#343434;	
+}
+#navigation li{
+	display: inline;
+}
+#navigation li a{
+	display:inline-block;
+	width:auto;
+	margin-left:20px;
+	font-family:helveticaNeueLight;
+	font-size:20px;
+	height: 100px;
+	line-height:100px;
+}
+#nextElementFix{
+	padding-top:100px; /*- set same as "start height" */
+}
+/*----------Style------------*/
+@font-face{
+	font-family: helveticaNeueLight;
+	src:url(Fonts/HelveticaNeue-Light.otf);
+}
+a{
+	text-decoration:none;
+	font-size:24px;
+	color: white;
+}
+#memo{
+	font-family: helveticaNeueLight;
+	color: black;
+	float:right;
+}
+#memo a{
+	font-family: helveticaNeueLight;
+	font-size:18px;
+	color:#FF6BA4;
+}
